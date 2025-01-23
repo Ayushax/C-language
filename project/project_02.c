@@ -5,7 +5,9 @@
 int main(){
     srand(time(0));
 
-    int player,computer = (rand()%3); //((rand()%2) + 1)
+    int player; // No random value assigned         here, will be set by user input
+    int computer = rand() % 3; // Computer's            choice is random from 0 to 2
+     //((rand()%2) + 1)
     // 0 --> Snake
     // 1 --> Water 
     // 2 --> Gun 
